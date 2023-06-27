@@ -9,4 +9,5 @@ class AppApplication : Application() {
         super.attachBaseContext(base)
         MultiDex.install(this)
     }
+
 }
